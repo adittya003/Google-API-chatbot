@@ -94,7 +94,7 @@ def asking(usr):
         if user_question.lower() == 'exit' or user_question.lower()=='quit':
             count=0
             firestore_clear_questions(usr)
-            print("Thank You For Using GrubAI.")
+            print("Thank You For Using me.")
             break  
         count+=1
         data_text = get_pdf_text(pdf_docs=[pdf_path])
